@@ -1,23 +1,29 @@
 body {
-  background: linear-gradient(171deg, /*#0f0c48ee,*/ #0b0bb2, #00d4ff);
-  background-size: 400% 400%;
+  background: linear-gradient(
+    301deg,
+    #4faada,
+    #0d5073,
+    #0c2735,
+    #2889bc,
+    #22d0ba
+  );
+  background-size: 1000% 1000%;
 
-  animation: fondo 15s ease infinite;
-  text-align: center;
+  animation: AnimationName 10s ease infinite;
 }
 
-@keyframes fondo {
+@keyframes AnimationName {
   0% {
-    background-position: 24% 0%;
+    background-position: 0% 51%;
   }
   50% {
-    background-position: 77% 100%;
+    background-position: 100% 50%;
   }
-
   100% {
-    background-position: 24% 0%;
+    background-position: 0% 51%;
   }
 }
+
 header {
   background: rgb(106, 105, 110);
   background: linear-gradient(
