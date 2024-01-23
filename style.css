@@ -66,6 +66,12 @@ button:hover {
 }
 
 input {
+  background: linear-gradient(
+    90deg,
+    rgba(105, 105, 114, 0.558) 0%,
+    rgba(146, 145, 145, 0.728) 35%,
+    rgba(18, 197, 242, 0.158) 100%
+  );
   border-radius: 25px;
   padding: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -73,6 +79,9 @@ input {
   font-weight: 800;
   min-width: 50%;
   text-align: center;
+}
+::placeholder {
+  color: white;
 }
 
 .titulo {
