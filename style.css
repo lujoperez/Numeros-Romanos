@@ -51,6 +51,7 @@ header {
   font-weight: 500;
 }
 button {
+  font-family: "Caesar Dressing", system-ui;
   color: white;
   border-radius: 25px;
   border-color: black;
@@ -86,7 +87,7 @@ input {
 
 .titulo {
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Caesar Dressing", system-ui;
   font-style: italic;
   font-weight: 1000;
 }
@@ -111,14 +112,14 @@ span,
 label,
 p {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Caesar Dressing", system-ui;
   font-size: large;
   font-weight: 900;
   color: #f2f2ee;
 }
 
 h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Caesar Dressing", system-ui;
   color: whitesmoke;
 }
 .footer {
