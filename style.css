@@ -46,7 +46,7 @@ header {
   margin: auto;
 }
 .descripcion {
-  font-size: 15px;
+  font-size: 16px;
   color: whitesmoke;
   font-weight: 500;
 }
@@ -86,7 +86,7 @@ input {
 }
 
 .titulo {
-  color: #ffffff;
+  color: #edce5c;
   font-family: "Caesar Dressing", system-ui;
   font-style: italic;
   font-weight: 1000;
@@ -136,4 +136,13 @@ a {
 }
 a:hover {
   color: black;
+}
+@media screen and (max-width: 550px) {
+  input {
+    width: 80vw;
+  }
+  button {
+    margin-top: 15px;
+    width: 40vw;
+  }
 }
